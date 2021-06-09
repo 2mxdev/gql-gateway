@@ -1,6 +1,6 @@
 {
-  "name": "gql-gateway",
-  "version": "1.0.0",
+  "name": "@2mxdev/gql-gateway",
+  "version": "1.0.1",
   "description": "Gateway for federation gql schema",
   "main": "index.js",
   "scripts": {
