@@ -1,0 +1,21 @@
+{
+  "name": "gql-gateway",
+  "version": "1.0.0",
+  "description": "Gateway for federation gql schema",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AnSi2",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/gateway": "^0.28.2",
+    "@sentry/node": "^6.5.1",
+    "apollo-graphql": "^0.9.3",
+    "apollo-server-express": "^2.25.0",
+    "graphql": "^15.5.0",
+    "lodash": "^4.17.21",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.set": "^4.3.2"
+  }
+}
