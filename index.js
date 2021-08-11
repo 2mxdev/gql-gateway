@@ -1,4 +1,5 @@
 const {ApolloServer, ApolloError} = require("apollo-server-express");
+import { ApolloServerPluginCacheControl } from 'apollo-server-core';
 const {ApolloGateway} = require("@apollo/gateway");
 const updateServiceDefinitions = require("./lib/updateServiceDefinitions")
 const Sentry = require("@sentry/node");
@@ -50,6 +51,7 @@ class GqlApolloGateway {
                 return {user, token};
             },
             plugins: [
+                ApolloServerPluginCacheControl({ defaultMaxAge: 60 }), 
                 {
                     requestDidStart(_) {
                         return {

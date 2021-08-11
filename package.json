@@ -1,6 +1,6 @@
 {
   "name": "@2mxdev/gql-gateway",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Gateway for federation gql schema",
   "main": "index.js",
   "scripts": {
@@ -9,10 +9,12 @@
   "author": "AnSi2",
   "license": "ISC",
   "dependencies": {
-    "@apollo/gateway": "^0.28.2",
+    "@apollo/gateway": "0.38.0",
     "@sentry/node": "^6.5.1",
     "apollo-graphql": "^0.9.3",
-    "apollo-server-express": "^2.25.0",
+    "apollo-server-express": "3.1.2",
+    "cookie": "^0.4.1",
+    "express": "^4.17.1",
     "graphql": "^15.5.0",
     "lodash": "^4.17.21",
     "lodash.clonedeep": "^4.5.0",
